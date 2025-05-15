@@ -1,0 +1,47 @@
+.available-buses-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background-color: #000; 
+  color: #00ff00;
+  height: 100vh; 
+  justify-content: center;
+}
+.search-options {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+
+
+.route-box-wrapper {
+  width: 90%;
+  margin: 20px auto;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.route-row {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid white;
+  border-radius: 5px;
+  padding: 10px;
+  color: white;
+  font-family: 'Zilla Slab', serif;
+  background-color: rgba(255, 255, 255, 0.05);
+}
+
+.route-row.header {
+  background-color: #00ff00;
+  color: black;
+  font-weight: bold;
+}
+
+.route-cell {
+  flex: 1;
+  text-align: center;
+}

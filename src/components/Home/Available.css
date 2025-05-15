@@ -1,0 +1,46 @@
+.available-buses-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background-color: #000; 
+  color: #00ff00;
+  height: auto; 
+  justify-content: center;
+}
+
+.header-text {
+  font-size: 40px;
+  margin-bottom: 20px;
+  text-align: center;
+  font-weight: bold;
+  color: #00ff00; 
+}
+
+.location-input {
+  width: 80%;
+  margin-bottom: 20px;
+  background-color: #fff; 
+  border-radius: 4px;
+}
+
+.location-icon {
+  color: black; 
+  font-size: 1.5rem;
+}
+
+.button-group {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 80%;
+}
+
+.bus-button {
+  background-color: #00ff00 !important;
+  color: #000 !important; 
+  font-weight: bold;
+  padding: 10px;
+  text-transform: none;
+}
+
