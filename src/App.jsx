@@ -27,7 +27,6 @@ import Home from "./components/Home/Home";
 import Busdetails from "./components/Home/Busdetails";
 import Availablebuses from "./components/Home/Availablebuses";
 
-
 function App() {
   return (
     <Router>
